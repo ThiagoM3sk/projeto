@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    background: #212529;
+}
+ul{
+    display: flex;
+}
+nav li{
+    float: left;
+}
+nav ul{
+    float: right;
+}
+
+ul li{
+    
+    padding: 10px;
+    margin: 5px;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+}
+a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
