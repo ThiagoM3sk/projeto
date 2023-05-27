@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     width: 100%;
     background: #212529;
@@ -25,4 +29,11 @@ a{
     font-weight: 700;
     color: white;
     text-decoration: none;
+}
+picture img{
+    width: 300px;
+    border: 1px solid black;
+}
+footer p a{
+    color: black;
 }
