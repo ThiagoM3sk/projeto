@@ -10,30 +10,28 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <header class="">
-        <nav>
-            <a href="#"><img src="img/logo/meskshoes1.png" alt="Logo da marca MeskShoes"></a>
-                <ul>
-                    <li >
-                        <a href="#">Início</a>
-                    </li>
-                    <li>
-                        <a href="#produtos">Produtos</a>
-                    </li>
-                    <li>
-                        <a href="#nosso-time">Nosso time</a>
-                    </li>
-                    <li>
-                        <a href="#quem-somos">Quem somos</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
-                </ul>
-        </nav>
+    <header class="container-fluid p-2">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo/meskshoes1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end text" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
+              <a class="nav-link text-white" href="#produtos">Produtos</a>
+              <a class="nav-link text-white" href="#nosso-time">Nosso Time</a>
+              <a class="nav-link text-white" href="#quem-somos">Quem Somos</a>
+              <a class="nav-link text-white" href="#contato">Contato</a>
+              <a class="nav-link text-white" href=""><i class="bi bi-bag-heart-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="bg-secondary">
-        <section id="produtos">
+        <section id="produtos" class="container-fluid text-center p-3">
             <h2>Produtos</h2>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -45,9 +43,9 @@
                       <h2 class="card-title">R$399,90</h2>
                       <p class="card-text">Há tendências e há tradições. Este tênis adidas Grand Court foi muito além das quadras e passarelas. Agora, nenhum guarda-roupa está completo sem ele.</p>
                     </div>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar agora</a>
                     <div class="card-footer">
-                      <small class="text-danger">Últimas Unidades</small>
+                      <smal>Em até 3x sem juros</small>
                     </div>
                   </div>
                 </div>
@@ -59,9 +57,9 @@
                       <h2 class="card-title">R$299,90</h2>
                       <p class="card-text">É confeccionado com material resistente e firme, perfuro para respirabilidade, forro acolchoado e solado resistente ao desgaste. Conte com a Adidas para complementar o seu look urbano em grande estilo!</p>
                     </div>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar agora</a>
                     <div class="card-footer">
-                      <small class="text-primary">Produto Exclusivo</small>
+                      <small>Em até 3x sem juros</small>
                     </div>
                   </div>
                 </div>
@@ -73,9 +71,9 @@
                       <h2 class="card-title">R$499,90</h2>
                       <p class="card-text"> O tênis adidas Superstar é um ícone do estilo de vida urbano. A mundialmente famosa biqueira de concha foi mantida como marca de originalidade e garantia de proteção.</p>
                     </div>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">Comprar agora</a>
                     <div class="card-footer">
-                      <small class="text-danger">Poucas Unidades</small>
+                      <small>Em até 3x sem juros</small>
                     </div>
                   </div>
                 </div>
@@ -112,69 +110,72 @@
             </table>
         </section>
         <fieldset>
-            <section id="nosso-time">
+            <section id="nosso-time" class="container-fluid bg-dark text-center text-white p-4">
                 <h2>Nosso time</h2>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="img/team/ceo.jpg" class="img-fluid rounded-start" alt="CEO da empresa">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Thiago Mesk</h5>
-                          <p class="card-text">CEO da MeskShoes, ele começou a trabalhar com seu pai em uma loja de sapatos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto exercitationem aliquam commodi. Aut ducimus ea molestias numquam tempore ab reiciendis..</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
+                <div class="card-group">
+                  <div class="card">
+                    <img src="img/team/ceo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Thiago Mesk</h5>
+                      <p class="card-text"><strong>CEO da MeskShoes</strong>, ele começou a trabalhar com seu pai em uma loja de sapatos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto exercitationem aliquam commodi. Aut ducimus ea molestias numquam tempore ab reiciendis..</p>
+                      <p class="card-text"><small class="text-body-secondary"></small></p>
                     </div>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="img/team/vice-presidente.jpg" class="img-fluid rounded-start" alt="CEO da empresa">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Ana Carolina</h5>
-                          <p class="card-text">Vice Presidente da MeskShoes, conseguiu o cargo apenas 3 anos depois da fundação da empresa e está até hoje. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto exercitationem aliquam commodi.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
+                  <div class="card">
+                    <img src="img/team/juridica.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ana Carolina</h5>
+                      <p class="card-text"><strong>Vice Presidente</strong> da MeskShoes, conseguiu o cargo apenas 3 anos depois da fundação da empresa e está até hoje. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto exercitationem aliquam commodi.</p>
+                      <p class="card-text"><small class="text-body-secondary"></small></p>
                     </div>
                   </div>
+                  <div class="card">
+                    <img src="img/team/vice-presidente.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Luiza Saldanha</h5>
+                      <p class="card-text">Nossa <strong>Gerente de Marketing</strong>, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi dolorum dicta sunt facere eum nisi nihil sit expedita alias quia, omnis eos? Ducimus quos quis officia laudantium, reprehenderit minus placeat.</p>
+                      <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                  </div>
+                </div>
                  
             </section>
         </fieldset>
-        <section id="quem-somos">
+        <section id="quem-somos" class="container-fluid bg-dark text-center text-white p-3 ">
             <h2>Quem somos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque mollitia animi odit velit aperiam autem, quia iure sapiente amet, est quis optio. In voluptatum praesentium iusto deleniti commodi ducimus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam rerum iusto, placeat dolore temporibus, aperiam neque sequi mollitia deserunt ducimus, dignissimos beatae quia reprehenderit perspiciatis praesentium distinctio. Quo, blanditiis qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis at autem optio. Nisi iure suscipit quae ea voluptatibus a aliquam impedit blanditiis, nulla facilis rem, et, earum sequi fugit.</p>
         </section>
-        <section id="contato">
+        <section id="contato" class="container-fluid bg-dark text-white p3">
             <h2>Contato</h2>
-
+          <form action="#" method="get">
             <fieldset>
-                <legend>Nos envie uma mensagem</legend>
-                <form action="#" method="get">
-                    <label for="nome">Nome:</label> <br>
-                    <input type="text" name="nome" id=""> <br>
-                    <label for="email">Email</label> <br>
-                    <input type="email" name="email" id="" required> <br>
-                    <label for="mensagem">Sua mensagem</label> <br>
-                    <textarea name="" id="" cols="30" rows="10">
-                    </textarea>
-                </form>
+
+                  <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" name="nome" id="nome" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="form-label" for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="checkbox" name="delivery" id="delivey" class="form-check-input">
+                    <label for="delivery" class="form-label">Receber nossas ofertas por Email</label>
+                  </div>                
             </fieldset>
-            <hr>
+          </form>
+            
+            
         </section>
         
     </main>
     <footer class="bg-secondary">
-                <p>MeskShoes&copy; All Rigths Reserved</p>
-                <address>
-                    14 de Março, Batista Campos, Belém - Pará - Nº 123 - CEP: 60606-000
-                </address>
-                <p><a href="mailto:contato@meskshoes.com.br">contato@meskshoes.com.br</a> - <a href="tel:+5591999999999">(91) 9 9999-9999</a></p>
-            </footer>
+        <address>
+            Av. 14 de Março, Batista Campos, Belém - Pará - Nº 123 - CEP: 06060-606
+        </address>
+        <span>Email: <a href="mailto:atendimento@meskshoes.com.br">atendimento@meskshoes.com.br</a></span> - <span>Telefone: <a href="tel:+5591999999999">(91) 9 9999-9999</a></span>
+        <p>MeskShoes&copy; All Rigths Reserved</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
