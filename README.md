@@ -7,4 +7,6 @@ Caso apresente alguma informação semelhante a algo real, é meramente coincid�
 
 Em caso de dúvidas ou sugestões, entre em contato pelo e-mail thiago.mesk@outlook.com
 
-**Thiago Mesquita&copy;  2023**
+Projeto realizado em **Junho de 2023** 
+
+**Thiago Mesquita &copy;  2024 All Rights Reserved**
